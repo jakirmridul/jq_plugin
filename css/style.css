@@ -1,0 +1,37 @@
+.box{
+	min-height: 500px;
+}
+
+/*counter 2*/
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+h1{
+	font-size: 3rem;
+}
+.counter2 {
+	font-family: 'Rampart One', cursive;
+	font-size: 5em;
+}
+.counter2:not(.is-visible) {
+	visibility: hidden;
+}
+
+
+/*counter3*/
+ .cou_3 {
+  font-size: 1.2rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+}
+.coun_3 { 
+	font-size: 2rem; 
+	margin: 1rem auto; 
+}
+.form-control {
+ 	margin-bottom: 1rem;
+}
+.coun_3 { 
+	margin: 20px auto; 
+}

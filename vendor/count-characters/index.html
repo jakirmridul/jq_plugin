@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>JQuery Character and Word counter plugin Examples</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.0/morph/bootstrap.min.css">
+<style>
+  .wrapper {
+  font-size: 2rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #ff0000;
+}
+h2 { font-size: 1.25rem; margin: 1rem auto; }
+.form-control { margin-bottom: 1rem; }
+.container { margin: 20px auto; }
+</style>
+</head>
+
+<body class="p-2">
+<div class="container">
+  <h1>JQuery Character and Word counter plugin Examples</h1>
+  <style>
+.download{ padding: 1.25rem; border:0; border-radius:3px; background-color:#4F46E5; color:#fff;cursor:pointer; text-decoration:none;}.download:hover{color: #fff}#carbonads{display:block;overflow:hidden;max-width:728px;position:relative;font-size:22px;box-sizing:content-box}#carbonads>span{display:block}#carbonads a{color:#4F46E5;text-decoration:none}#carbonads a:hover{color:#4F46E5}.carbon-wrap{display:flex;align-items:center}.carbon-img{display:block;margin:0;line-height:1}.carbon-img img{display:block;height:90px;width:auto}.carbon-text{display:block;padding:0 1em;line-height:1.35;text-align:left}.carbon-poweredby{display:block;position:absolute;bottom:0;right:0;padding:6px 10px;text-align:center;text-transform:uppercase;letter-spacing:.5px;font-weight:600;font-size:8px;border-top-left-radius:4px;line-height:1;color:#aaa!important}@media only screen and (min-width:320px) and (max-width:759px){.carbon-text{font-size:14px}}
+</style>
+<div><div id="carbon-block"></div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2783044520727903"
+     crossorigin="anonymous"></script>
+<!-- jQuery_Replace_Demo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2783044520727903"
+     data-ad-slot="7325992188"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p style="margin:2rem auto"><a class="download" href="https://www.jqueryscript.net/form/count-characters-words.html">Download This Plugin</a> <a class="download" href="https://www.jqueryscript.net/">Back To jQueryScript</a></p>
+  <p class="lead">A lightweight yet powerful jQuery plugin that counts words or characters typed in various web elements including input fields, textareas, and content-editable elements. </p>
+  <h2>Character Counter (30 chars)</h2>
+  <textarea id="charUp" class="form-control"></textarea>
+  <h2>Word Counter (10 words)</h2>
+  <textarea id="wordDown" class="form-control"></textarea>
+  <h2>Countdown (144 words)</h2>
+  <input class="form-control" id="countdown">
+  <h2>Custom Message</h2>
+  <input class="form-control" id="customMessage">
+  <h2>No Limit</h2>
+  <input class="form-control" id="noLimit">
+  <h2>Custom Container Styles</h2>
+  <input class="form-control" id="customContainer">
+  <h2>Content Editable</h2>
+  <div contenteditable="true" id="contentEditable">Type In Here</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+<script src="jquery.word-and-character-counter.js"></script>
+<script>
+  $("#charUp").counter({
+    count: 'up',
+    goal: 30
+});
+  $("#wordDown").counter({
+    type: 'word',
+    goal: 10
+});
+  $("#countdown").counter({
+    count: 'down',
+    goal: 144
+});
+  $("#customMessage").counter({
+    count: 'down',
+    goal: 144,
+    msg: 'characters left before you fall into a pit of emptiness.'
+});
+  $("#noLimit").counter({
+    goal: 'sky',
+    msg : 'amazing characters'
+});
+   $("#contentEditable").counter({
+
+});
+   $("#customContainer").counter({
+containerClass: 'wrapper'
+});
+</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1VDDWMRSTH');
+</script><script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</body>
+</html>
