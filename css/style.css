@@ -35,3 +35,34 @@ h1{
 .coun_3 { 
 	margin: 20px auto; 
 }
+
+/*slider*/
+.slider_cont{
+	margin: 30px 0;
+}
+.slide_box {
+	padding: 10px;
+}
+
+.demo{
+	padding: 30px 0;
+	background-color: gray;
+}
+.demo_box{
+	padding: 0 20px;
+}
+
+.syncing{
+	    background: #a99d9e;
+	margin-top: 40px;
+	text-align: center;
+}
+.syncing_box h2{
+	margin-bottom: 20px;
+}
+
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
